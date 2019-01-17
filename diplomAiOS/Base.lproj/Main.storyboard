@@ -75,7 +75,7 @@
                                 <rect key="frame" x="67" y="344" width="240" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Get started">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -144,9 +144,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QJz-M9-K2L"/>
                     </view>
-                    <navigationItem key="navigationItem" id="egd-xP-K9W">
-                        <barButtonItem key="leftBarButtonItem" id="fuQ-KR-z7A"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="egd-xP-K9W"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Kg-DD-xc9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -201,7 +199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MLE-jN-CTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1991.2" y="718.29085457271367"/>
+            <point key="canvasLocation" x="836" y="917"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="QVY-fQ-b4d">
