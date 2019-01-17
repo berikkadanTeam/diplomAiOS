@@ -15,6 +15,10 @@
 		112F6A8521847DC8001B3C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112F6A8321847DC8001B3C97 /* LaunchScreen.storyboard */; };
 		112F6A9021847DC8001B3C97 /* diplomAiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F6A8F21847DC8001B3C97 /* diplomAiOSTests.swift */; };
 		112F6A9B21847DC8001B3C97 /* diplomAiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F6A9A21847DC8001B3C97 /* diplomAiOSUITests.swift */; };
+		7755BF6321A7032000260812 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7755BF6221A7006100260812 /* RobotoCondensed-Regular.ttf */; };
+		77A4159721F0763C00431DC5 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A4159621F0763C00431DC5 /* RegistrationViewController.swift */; };
+		77A4159921F0766600431DC5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A4159821F0766600431DC5 /* LoginViewController.swift */; };
+		8766A22901AA2185748646BD /* Pods_diplomAiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCF83578A3B64855C5F315F /* Pods_diplomAiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,12 @@
 		112F6A9621847DC8001B3C97 /* diplomAiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diplomAiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112F6A9A21847DC8001B3C97 /* diplomAiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diplomAiOSUITests.swift; sourceTree = "<group>"; };
 		112F6A9C21847DC8001B3C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FCF83578A3B64855C5F315F /* Pods_diplomAiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_diplomAiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7755BF6221A7006100260812 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		77A4159621F0763C00431DC5 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		77A4159821F0766600431DC5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		789C54E546D834EE73EF5C07 /* Pods-diplomAiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diplomAiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-diplomAiOS/Pods-diplomAiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B9AA0B262D4D12E6D67B77DC /* Pods-diplomAiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diplomAiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-diplomAiOS/Pods-diplomAiOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8766A22901AA2185748646BD /* Pods_diplomAiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +87,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EF7F3C27F199305E1C963FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				789C54E546D834EE73EF5C07 /* Pods-diplomAiOS.debug.xcconfig */,
+				B9AA0B262D4D12E6D67B77DC /* Pods-diplomAiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		112F6A6B21847DC6001B3C97 = {
 			isa = PBXGroup;
 			children = (
+				7755BF6121A7005A00260812 /* Fonts */,
 				112F6A7621847DC6001B3C97 /* diplomAiOS */,
 				112F6A8E21847DC8001B3C97 /* diplomAiOSTests */,
 				112F6A9921847DC8001B3C97 /* diplomAiOSUITests */,
 				112F6A7521847DC6001B3C97 /* Products */,
+				0EF7F3C27F199305E1C963FB /* Pods */,
+				A676BC9C62CF1836F2B07263 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +124,8 @@
 			children = (
 				112F6A7721847DC6001B3C97 /* AppDelegate.swift */,
 				112F6A7921847DC6001B3C97 /* ViewController.swift */,
+				77A4159621F0763C00431DC5 /* RegistrationViewController.swift */,
+				77A4159821F0766600431DC5 /* LoginViewController.swift */,
 				112F6A7B21847DC6001B3C97 /* Main.storyboard */,
 				112F6A8121847DC8001B3C97 /* Assets.xcassets */,
 				112F6A8321847DC8001B3C97 /* LaunchScreen.storyboard */,
@@ -128,6 +153,22 @@
 			path = diplomAiOSUITests;
 			sourceTree = "<group>";
 		};
+		7755BF6121A7005A00260812 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7755BF6221A7006100260812 /* RobotoCondensed-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A676BC9C62CF1836F2B07263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FCF83578A3B64855C5F315F /* Pods_diplomAiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 112F6A9F21847DC8001B3C97 /* Build configuration list for PBXNativeTarget "diplomAiOS" */;
 			buildPhases = (
+				871021375A4E4768885E276C /* [CP] Check Pods Manifest.lock */,
 				112F6A7021847DC6001B3C97 /* Sources */,
 				112F6A7121847DC6001B3C97 /* Frameworks */,
 				112F6A7221847DC6001B3C97 /* Resources */,
+				1B9AEECBB1E0866A27914530 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7755BF6321A7032000260812 /* RobotoCondensed-Regular.ttf in Resources */,
 				112F6A8521847DC8001B3C97 /* LaunchScreen.storyboard in Resources */,
 				112F6A8221847DC8001B3C97 /* Assets.xcassets in Resources */,
 				112F6A7D21847DC6001B3C97 /* Main.storyboard in Resources */,
@@ -254,6 +298,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B9AEECBB1E0866A27914530 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-diplomAiOS/Pods-diplomAiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PusherSwift/PusherSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-diplomAiOS/Pods-diplomAiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		871021375A4E4768885E276C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-diplomAiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		112F6A7021847DC6001B3C97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +354,8 @@
 			files = (
 				112F6A8021847DC6001B3C97 /* diplomAiOS.xcdatamodeld in Sources */,
 				112F6A7A21847DC6001B3C97 /* ViewController.swift in Sources */,
+				77A4159721F0763C00431DC5 /* RegistrationViewController.swift in Sources */,
+				77A4159921F0766600431DC5 /* LoginViewController.swift in Sources */,
 				112F6A7821847DC6001B3C97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +529,7 @@
 		};
 		112F6AA021847DC8001B3C97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789C54E546D834EE73EF5C07 /* Pods-diplomAiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +547,7 @@
 		};
 		112F6AA121847DC8001B3C97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9AA0B262D4D12E6D67B77DC /* Pods-diplomAiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
