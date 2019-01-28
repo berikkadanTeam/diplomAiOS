@@ -1,20 +1,46 @@
 PODS:
-  - Alamofire (4.6.0)
-  - PusherSwift (5.1.1)
+  - Alamofire (4.8.0)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - FTIndicator (1.2.9):
+    - FTIndicator/FTNotificationIndicator (= 1.2.9)
+    - FTIndicator/FTProgressIndicator (= 1.2.9)
+    - FTIndicator/FTToastIndicator (= 1.2.9)
+  - FTIndicator/FTNotificationIndicator (1.2.9)
+  - FTIndicator/FTProgressIndicator (1.2.9)
+  - FTIndicator/FTToastIndicator (1.2.9)
+  - NVActivityIndicatorView (4.4.0):
+    - NVActivityIndicatorView/Presenter (= 4.4.0)
+  - NVActivityIndicatorView/Presenter (4.4.0)
+  - ObjectMapper (3.4.1)
+  - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.6.0)
-  - PusherSwift (~> 5.1.1)
+  - Alamofire
+  - AlamofireObjectMapper
+  - FTIndicator
+  - NVActivityIndicatorView
+  - ObjectMapper
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
-    - PusherSwift
+    - AlamofireObjectMapper
+    - FTIndicator
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
-  PusherSwift: de9238b6b9faec5275d452e5f43ce9c82b78731e
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  FTIndicator: f7f071fd159e5befa1d040a9ef2e3ab53fa9322c
+  NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
+  ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 19699e8ab590af579b49356997bb597e196f17b0
+PODFILE CHECKSUM: 37add6ba0176690381305f6d25f72ae9def9a137
 
 COCOAPODS: 1.5.3
