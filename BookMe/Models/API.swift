@@ -13,11 +13,12 @@ public enum APIRouter: URLRequestConvertible {
     
     private static let baseUrl = Globals.main.url
     
-    case getCities
+    case getCities, getRestaurants
+    
     var method: HTTPMethod {
         
         switch self {
-        case .getCities:
+        case .getCities, .getRestaurants:
             return .get
         }
         
@@ -28,8 +29,9 @@ public enum APIRouter: URLRequestConvertible {
         switch self {
         case .getCities:
             return "Restaurants/GetCities"
+        case .getRestaurants:
+            return "Restaurants/GetRestaurants"
         }
-        
         
     }
     

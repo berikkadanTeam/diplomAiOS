@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15337015220717CD0000DA29 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15337014220717CD0000DA29 /* BookingViewController.swift */; };
+		15337017220718D30000DA29 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15337016220718D30000DA29 /* RestaurantTableViewCell.swift */; };
+		15337019220718F60000DA29 /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15337018220718F60000DA29 /* RestaurantTableViewCell.xib */; };
+		1533701D22071E6E0000DA29 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1533701C22071E6E0000DA29 /* Restaurant.swift */; };
+		1533701F22071EBB0000DA29 /* WorkDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1533701E22071EBB0000DA29 /* WorkDay.swift */; };
+		1533702122072B8F0000DA29 /* RestaurantInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1533702022072B8F0000DA29 /* RestaurantInfoViewController.swift */; };
 		15AC5E1921F61D150082E63B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AC5E1821F61D150082E63B /* AppDelegate.swift */; };
 		15AC5E1B21F61D150082E63B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AC5E1A21F61D150082E63B /* ViewController.swift */; };
 		15AC5E1E21F61D150082E63B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AC5E1C21F61D150082E63B /* Main.storyboard */; };
@@ -27,14 +33,17 @@
 		15FF259C21F643BA00A249CE /* AccountCreatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF259B21F643BA00A249CE /* AccountCreatedViewController.swift */; };
 		15FF259E21F643E900A249CE /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF259D21F643E900A249CE /* AuthViewController.swift */; };
 		15FF25A021F6484E00A249CE /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF259F21F6484E00A249CE /* Keys.swift */; };
-		771A23F722004D1B007B954C /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771A23F622004D1B007B954C /* RestaurantsViewController.swift */; };
-		771A23FB22006D93007B954C /* Restaraunts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771A23FA22006D93007B954C /* Restaraunts.swift */; };
 		771A23FF220372FF007B954C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771A23FE220372FF007B954C /* SwiftyJSON.swift */; };
-		771A245422038805007B954C /* RestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771A245322038805007B954C /* RestaurantsTableViewCell.swift */; };
 		CCBB337063DF8BCE11F9F1DD /* Pods_BookMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AFDD88CC0BB6EAB621D6C4 /* Pods_BookMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15337014220717CD0000DA29 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		15337016220718D30000DA29 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		15337018220718F60000DA29 /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantTableViewCell.xib; sourceTree = "<group>"; };
+		1533701C22071E6E0000DA29 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		1533701E22071EBB0000DA29 /* WorkDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDay.swift; sourceTree = "<group>"; };
+		1533702022072B8F0000DA29 /* RestaurantInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfoViewController.swift; sourceTree = "<group>"; };
 		15AC5E1521F61D150082E63B /* BookMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15AC5E1821F61D150082E63B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15AC5E1A21F61D150082E63B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,10 +67,7 @@
 		15FF259D21F643E900A249CE /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		15FF259F21F6484E00A249CE /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		1B96154E2729A9C1D6DACE9D /* Pods-BookMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookMe/Pods-BookMe.debug.xcconfig"; sourceTree = "<group>"; };
-		771A23F622004D1B007B954C /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
-		771A23FA22006D93007B954C /* Restaraunts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaraunts.swift; sourceTree = "<group>"; };
 		771A23FE220372FF007B954C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
-		771A245322038805007B954C /* RestaurantsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsTableViewCell.swift; sourceTree = "<group>"; };
 		BEE86A45B3474160325C2753 /* Pods-BookMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookMe/Pods-BookMe.release.xcconfig"; sourceTree = "<group>"; };
 		F0AFDD88CC0BB6EAB621D6C4 /* Pods_BookMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15337013220717AA0000DA29 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				15337014220717CD0000DA29 /* BookingViewController.swift */,
+				1533702022072B8F0000DA29 /* RestaurantInfoViewController.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
 		15AC5E0C21F61D150082E63B = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +139,8 @@
 				15AC5E3C21F638510082E63B /* API.swift */,
 				15AC5E3D21F638510082E63B /* UserAPI.swift */,
 				15AC5E4121F638ED0082E63B /* City.swift */,
-				771A23FA22006D93007B954C /* Restaraunts.swift */,
+				1533701C22071E6E0000DA29 /* Restaurant.swift */,
+				1533701E22071EBB0000DA29 /* WorkDay.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -132,8 +148,9 @@
 		15AC5E2B21F61DB00082E63B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				771A245322038805007B954C /* RestaurantsTableViewCell.swift */,
 				15AC5E3521F632FA0082E63B /* CityTableViewCell.swift */,
+				15337016220718D30000DA29 /* RestaurantTableViewCell.swift */,
+				15337018220718F60000DA29 /* RestaurantTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -141,13 +158,13 @@
 		15AC5E2C21F61DB60082E63B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				15337013220717AA0000DA29 /* Booking */,
 				15AC5E2D21F61E2B0082E63B /* MainTabBarViewController.swift */,
 				15AC5E2F21F61E8D0082E63B /* GetStartedViewController.swift */,
 				15AC5E3321F6211A0082E63B /* RegistrationViewController.swift */,
 				15AC5E3921F635520082E63B /* CitiesViewController.swift */,
 				15FF259B21F643BA00A249CE /* AccountCreatedViewController.swift */,
 				15FF259D21F643E900A249CE /* AuthViewController.swift */,
-				771A23F622004D1B007B954C /* RestaurantsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -237,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15337019220718F60000DA29 /* RestaurantTableViewCell.xib in Resources */,
 				15AC5E2321F61D180082E63B /* LaunchScreen.storyboard in Resources */,
 				15AC5E2021F61D180082E63B /* Assets.xcassets in Resources */,
 				15AC5E1E21F61D150082E63B /* Main.storyboard in Resources */,
@@ -309,24 +327,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1533702122072B8F0000DA29 /* RestaurantInfoViewController.swift in Sources */,
+				1533701D22071E6E0000DA29 /* Restaurant.swift in Sources */,
 				15AC5E3F21F638510082E63B /* API.swift in Sources */,
-				771A245422038805007B954C /* RestaurantsTableViewCell.swift in Sources */,
 				15FF25A021F6484E00A249CE /* Keys.swift in Sources */,
 				15FF259A21F63D1100A249CE /* DMLoader.swift in Sources */,
 				15AC5E3421F6211A0082E63B /* RegistrationViewController.swift in Sources */,
 				15AC5E3621F632FA0082E63B /* CityTableViewCell.swift in Sources */,
 				15FF259E21F643E900A249CE /* AuthViewController.swift in Sources */,
 				15AC5E3221F620750082E63B /* Extensions.swift in Sources */,
-				771A23F722004D1B007B954C /* RestaurantsViewController.swift in Sources */,
 				15AC5E3A21F635520082E63B /* CitiesViewController.swift in Sources */,
 				15AC5E4021F638510082E63B /* UserAPI.swift in Sources */,
 				15AC5E2E21F61E2B0082E63B /* MainTabBarViewController.swift in Sources */,
 				15AC5E3821F6342C0082E63B /* Globals.swift in Sources */,
 				771A23FF220372FF007B954C /* SwiftyJSON.swift in Sources */,
 				15AC5E1B21F61D150082E63B /* ViewController.swift in Sources */,
+				15337017220718D30000DA29 /* RestaurantTableViewCell.swift in Sources */,
 				15AC5E1921F61D150082E63B /* AppDelegate.swift in Sources */,
 				15AC5E3E21F638510082E63B /* AF.swift in Sources */,
-				771A23FB22006D93007B954C /* Restaraunts.swift in Sources */,
+				15337015220717CD0000DA29 /* BookingViewController.swift in Sources */,
+				1533701F22071EBB0000DA29 /* WorkDay.swift in Sources */,
 				15FF259C21F643BA00A249CE /* AccountCreatedViewController.swift in Sources */,
 				15AC5E4221F638ED0082E63B /* City.swift in Sources */,
 				15AC5E3021F61E8D0082E63B /* GetStartedViewController.swift in Sources */,
