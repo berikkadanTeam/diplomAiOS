@@ -10,6 +10,7 @@ PODS:
   - FTIndicator/FTNotificationIndicator (1.2.9)
   - FTIndicator/FTProgressIndicator (1.2.9)
   - FTIndicator/FTToastIndicator (1.2.9)
+  - Kingfisher (5.1.0)
   - NVActivityIndicatorView (4.4.0):
     - NVActivityIndicatorView/Presenter (= 4.4.0)
   - NVActivityIndicatorView/Presenter (4.4.0)
@@ -20,6 +21,7 @@ DEPENDENCIES:
   - Alamofire
   - AlamofireObjectMapper
   - FTIndicator
+  - Kingfisher
   - NVActivityIndicatorView
   - ObjectMapper
   - SwiftyJSON
@@ -29,6 +31,7 @@ SPEC REPOS:
     - Alamofire
     - AlamofireObjectMapper
     - FTIndicator
+    - Kingfisher
     - NVActivityIndicatorView
     - ObjectMapper
     - SwiftyJSON
@@ -37,10 +40,11 @@ SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
   AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
   FTIndicator: f7f071fd159e5befa1d040a9ef2e3ab53fa9322c
+  Kingfisher: fcec238063d17404fca89bf0a850583211c4cbf6
   NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
   ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 37add6ba0176690381305f6d25f72ae9def9a137
+PODFILE CHECKSUM: 4d5a49c91c887d13d7806dd76e829e3b2da57d7d
 
 COCOAPODS: 1.5.3

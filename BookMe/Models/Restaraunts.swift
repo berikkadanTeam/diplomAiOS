@@ -10,7 +10,8 @@ import UIKit
 
 struct JsonModel{
     var name: String = ""
-    var address: String = ""
+    var addres: String = ""
+    var fileName: String = ""
     
     init(){
         
@@ -19,7 +20,8 @@ struct JsonModel{
     
     init(json:JSON){
         name = json["name"].stringValue
-        address = json["address"].stringValue
+        addres = json["addres"].stringValue
+        fileName = json["fileName"].stringValue
     }
 }
 

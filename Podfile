@@ -6,10 +6,12 @@ target 'BookMe' do
   use_frameworks!
 
   # Pods for BookMe
+    pod 'Kingfisher'
     pod 'Alamofire'
     pod 'AlamofireObjectMapper'
     pod 'ObjectMapper'
     pod 'FTIndicator'
     pod 'NVActivityIndicatorView'
     pod 'SwiftyJSON'
+    
 end
