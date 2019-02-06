@@ -13,6 +13,7 @@ class Globals {
     static let main = Globals()
     
     var url = "http://5.23.55.101/api"
+    var imageUrl = "http://berikkadan.kz/Files/"
     
     var tint = RGBColor(0x00ADB5)
 }

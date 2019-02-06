@@ -29,6 +29,14 @@ func RGBColor(_ rgbValue: UInt, alpha: Double = 1) -> UIColor { //Цвет
     )
 }
 
+func attributeText(_ attributeTextArray: [NSMutableAttributedString]) -> NSMutableAttributedString {
+    let attributedText = NSMutableAttributedString()
+    for current in attributeTextArray {
+        attributedText.append(current)
+    }
+    return attributedText
+}
+
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
         let tapGesture = UITapGestureRecognizer(target: self,
@@ -38,5 +46,27 @@ extension UIViewController {
 
     @objc func hideKeyboard() {
         view.endEditing(true)
+    }
+}
+
+extension String {
+    func toUrl() -> String {
+        let url = Globals.main.imageUrl + self
+        return url
+    }
+    
+    func toAttributeText(isBold: Bool) -> NSMutableAttributedString {
+        let attributedText = NSMutableAttributedString()
+        let fontName = isBold ? "HelveticaNeue-Bold" : "HelveticaNeue"
+        let color = isBold ? RGBColor(0x222831) : RGBColor(0x393e46)
+         attributedText.append(NSMutableAttributedString(string: self, attributes: [NSMutableAttributedString.Key.foregroundColor: color, NSMutableAttributedString.Key.font: UIFont(name: fontName, size: 14)!]))
+        return attributedText
+    }
+}
+
+extension Bool {
+    func toString() -> String {
+        let choose = self ? "Да" : "Нет"
+        return choose
     }
 }
