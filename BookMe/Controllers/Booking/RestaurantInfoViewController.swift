@@ -27,6 +27,7 @@ class RestaurantInfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         if let res = restaurant {
             nameLabel.text = res.name
             addressLabel.text = res.addres
@@ -39,12 +40,38 @@ class RestaurantInfoViewController: UIViewController {
             
             mapView.layer.borderWidth = 1
             mapView.layer.borderColor = RGBColor(0x00adb5).cgColor
+            
+            
         }
+        
+        self.tabBarController?.tabBar.isHidden = true
+        let button = UIButton()
+        button.frame = CGRect(x: self.view.frame.size.width - 375, y: 626, width: 375, height: 41)
+        button.backgroundColor = RGBColor(0x00adb5)
+        button.setTitle("Забронировать ", for: .normal)
+        button.addTarget(self, action: #selector(buttonAction(_:)),
+                         for: .touchUpInside)
+        self.view.addSubview(button)
     }
+       @objc func buttonAction(_ : UIButton) {
+        self.performSegue(withIdentifier: "webSeg", sender: self)
+        
+        }
+    
 
     @IBAction func callButtonPressed(_ sender: Any) {
     }
     
     @IBAction func onMapButtonPressed(_ sender: Any) {
+   
     }
+
+override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+   
+
+    var vc  = segue.destination as! webViewViewController
+    let res = restaurant
+    vc.rsText = (res?.id)!
+}
+
 }

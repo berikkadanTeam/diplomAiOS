@@ -12,7 +12,7 @@ class MainTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       //   jsonParsing()
+     //    jsonParsing()
         
     }
    /* func jsonParsing() {
@@ -30,7 +30,7 @@ class MainTabBarViewController: UITabBarController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-//       Keys.current.remove(.token) // to access AUTH
+         // Keys.current.remove(.token) // to access AUTH
         if Keys.current.get(.token) == "" {
             performSegue(withIdentifier: "toAuth", sender: nil)
         }

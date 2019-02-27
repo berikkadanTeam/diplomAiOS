@@ -19,6 +19,7 @@ class BookingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       // self.tabBarController?.tabBar.isHidden = false
         setupViews()
         makeRequest()
     }

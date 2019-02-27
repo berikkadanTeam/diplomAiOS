@@ -27,6 +27,8 @@ public class Restaurant: Mappable {
     var seats : Int = 0
     var tables : AnyObject?
     var workDay : [WorkDay]?
+    var menu: AnyObject?
+    
 
     required convenience public init?(map: Map) {
         self.init()
