@@ -13,5 +13,6 @@ target 'BookMe' do
     pod 'FTIndicator'
     pod 'NVActivityIndicatorView'
     pod 'SwiftyJSON'
+    pod 'SwiftSignalRClient'
     
 end

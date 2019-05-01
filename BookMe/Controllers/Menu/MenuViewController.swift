@@ -3,24 +3,27 @@
 //  BookMe
 //
 //  Created by Alikhan Ilyassov on 2/22/19.
-//  Copyright © 2019 Dmitriy Pak. All rights reserved.
+//  Copyright © 2019 Alikhan Ilyassov. All rights reserved.
 //
 
 import UIKit
 
 
 class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
+    
     @IBOutlet weak var profileImage: UIImageView!
     
     @IBOutlet weak var menuTableView: UITableView!
     
-    var nameArray = [Menu]()
-    var currentNameArray = [Menu]()
+    var tableView: UITableView!
+    var delegate: HomeControllerDelegate?
+   // var nameArray = [Menu]()
+   // var currentNameArray = [Menu]()
     
     override func viewDidLoad() {
 
         super.viewDidLoad()
-  setUpMain()
+    configureTableView()
        
         
         self.profileImage.layer.cornerRadius = self.profileImage.frame.size.width / 2
@@ -28,24 +31,21 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         
     }
+    func configureTableView() {
+        tableView = UITableView()
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
     
-    private func setUpMain(){
-        nameArray.append(Menu(imageMenu: "icon_profile_rounded", title: "Мой профиль"))
-        nameArray.append(Menu(imageMenu: "icon_calendar", title: "Мои бронирования"))
-        nameArray.append(Menu(imageMenu: "icon_clock", title: "Мои заказы"))
-        nameArray.append(Menu(imageMenu: "icon_delivery_blue", title: "Мои доставки"))
-        nameArray.append(Menu(imageMenu: "icon_money_heart", title: "Пополнить баланс"))
-        nameArray.append(Menu(imageMenu: "icon_discount", title: "Акции"))
-        
-        
-            currentNameArray = nameArray
+    
+    
     
 
-}
+
 
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return currentNameArray.count
+    return 6
         
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -56,14 +56,19 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
             return UITableViewCell()
             
         }
-        
-        cell.menuLabel.text = currentNameArray[indexPath.row].title
-        cell.menuImage.image = UIImage(named: currentNameArray[indexPath.row].imageMenu)
+        let menuOption = MenuOption(rawValue: indexPath.row)
+        cell.menuLabel.text = menuOption?.description
+        cell.menuImage.image = menuOption?.image
         return cell
     }
 
 func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     return 72
 }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let menuOption = MenuOption(rawValue: indexPath.row)
+        delegate?.handleMenuToggle(forMenuOption: menuOption)
+       
+    }
 
 }

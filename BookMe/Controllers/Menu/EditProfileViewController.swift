@@ -1,22 +1,19 @@
 //
-//  ProfileViewController.swift
+//  EditProfileViewController.swift
 //  BookMe
 //
-//  Created by Alikhan Ilyassov on 2/27/19.
+//  Created by Alikhan Ilyassov on 3/6/19.
 //  Copyright © 2019 Alikhan Ilyassov. All rights reserved.
 //
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class EditProfileViewController: UIViewController {
 
-    @IBOutlet weak var ProfImage: UIImageView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.ProfImage.layer.cornerRadius = self.ProfImage.frame.size.width / 2
-        ProfImage.clipsToBounds = true
+        // Do any additional setup after loading the view.
     }
     
 

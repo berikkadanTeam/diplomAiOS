@@ -3,7 +3,7 @@
 //  BookMe
 //
 //  Created by Dmitriy Pak on 2/3/19.
-//  Copyright © 2019 Dmitriy Pak. All rights reserved.
+//  Copyright © 2019 Alikhan Ilyassov. All rights reserved.
 //
 
 import UIKit
@@ -18,7 +18,7 @@ class RestaurantTableViewCell: UITableViewCell {
     var restaurant: Restaurant? {
         didSet {
             if let res = restaurant {
-                restaurantImage.kf.setImage(with: URL(string: res.fileName.toUrl()))
+                restaurantImage.kf.setImage(with: URL(string: res.fileName.toUrl(.restaurantAvatar)))
                 nameLabel.text = res.name
                 addressLabel.text = res.addres
             }

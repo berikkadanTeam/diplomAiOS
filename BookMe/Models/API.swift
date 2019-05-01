@@ -13,12 +13,12 @@ public enum APIRouter: URLRequestConvertible {
     
     private static let baseUrl = Globals.main.url
     
-    case getCities, getRestaurants
+    case getCities, getRestaurants, getDishType, getRestaurantMenu(String)
     
     var method: HTTPMethod {
         
         switch self {
-        case .getCities, .getRestaurants:
+        case .getCities, .getRestaurants, .getDishType, .getRestaurantMenu:
             return .get
         }
         
@@ -31,6 +31,10 @@ public enum APIRouter: URLRequestConvertible {
             return "Restaurants/GetCities"
         case .getRestaurants:
             return "Restaurants/GetRestaurants"
+        case .getDishType:
+            return "Restinfo/GetDishType"
+        case .getRestaurantMenu:
+            return "Restinfo/GetRestaurantMenu"
         }
         
     }
@@ -39,7 +43,8 @@ public enum APIRouter: URLRequestConvertible {
     var parameters: [String: Any] {
         
         switch self {
-            
+        case .getRestaurantMenu(let id):
+            return ["restarauntId": id]
         default:
             return [:]
         }
@@ -49,6 +54,9 @@ public enum APIRouter: URLRequestConvertible {
     
     
     public func addAuthHeader(_ request: inout URLRequest) {
+        if Keys.current.get(.token) != "" {
+            request.addValue("Authorization", forHTTPHeaderField: "Bearer \(Keys.current.get(.token))")
+        }
     }
     
     

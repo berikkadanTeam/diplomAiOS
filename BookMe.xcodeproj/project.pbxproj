@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13CBE78E2279C2CC003F8BF7 /* QRModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CBE78D2279C2CC003F8BF7 /* QRModel.swift */; };
 		15337015220717CD0000DA29 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15337014220717CD0000DA29 /* BookingViewController.swift */; };
 		15337017220718D30000DA29 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15337016220718D30000DA29 /* RestaurantTableViewCell.swift */; };
 		15337019220718F60000DA29 /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15337018220718F60000DA29 /* RestaurantTableViewCell.xib */; };
@@ -35,15 +36,26 @@
 		15FF25A021F6484E00A249CE /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF259F21F6484E00A249CE /* Keys.swift */; };
 		7700376A22269009007F2E3B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7700376922269009007F2E3B /* ProfileViewController.swift */; };
 		771A23FF220372FF007B954C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771A23FE220372FF007B954C /* SwiftyJSON.swift */; };
+		771C4966224A911F008D3F35 /* DishType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C4965224A911F008D3F35 /* DishType.swift */; };
+		771C4968224A948E008D3F35 /* DishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C4967224A948E008D3F35 /* DishViewController.swift */; };
+		771C496A22509391008D3F35 /* DishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C496922509391008D3F35 /* DishTableViewCell.swift */; };
+		77290225222FC2C7003A61B3 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77290224222FC2C7003A61B3 /* EditProfileViewController.swift */; };
 		776B7D3B22185618009C8CB8 /* ReserveInfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776B7D3A22185618009C8CB8 /* ReserveInfoPageViewController.swift */; };
 		776B7D3D2220106A009C8CB8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776B7D3C2220106A009C8CB8 /* MenuViewController.swift */; };
 		776B7D40222069A0009C8CB8 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776B7D3F222069A0009C8CB8 /* MenuTableViewCell.swift */; };
 		776B7D4222206C7B009C8CB8 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776B7D4122206C7A009C8CB8 /* Menu.swift */; };
+		77B229D322410FDD00B6B743 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B229D222410FDD00B6B743 /* QRViewController.swift */; };
+		77B29B582251BAF000F98591 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B29B572251BAF000F98591 /* MenuOption.swift */; };
+		77B8C8D92250A5A800D82B2E /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B8C8D82250A5A800D82B2E /* Dish.swift */; };
+		77D6B886225614AC00F7FB35 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D6B885225614AB00F7FB35 /* ContainerController.swift */; };
+		77D6B8882256165E00F7FB35 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D6B8872256165E00F7FB35 /* Protocols.swift */; };
 		77F5F13A2211D400007D00E5 /* webViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F5F1392211D400007D00E5 /* webViewViewController.swift */; };
+		77FFE9CE226C8F570090F81E /* DishCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FFE9CD226C8F570090F81E /* DishCollectionViewCell.swift */; };
 		CCBB337063DF8BCE11F9F1DD /* Pods_BookMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AFDD88CC0BB6EAB621D6C4 /* Pods_BookMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13CBE78D2279C2CC003F8BF7 /* QRModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRModel.swift; sourceTree = "<group>"; };
 		15337014220717CD0000DA29 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 		15337016220718D30000DA29 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 		15337018220718F60000DA29 /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantTableViewCell.xib; sourceTree = "<group>"; };
@@ -75,11 +87,21 @@
 		1B96154E2729A9C1D6DACE9D /* Pods-BookMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookMe/Pods-BookMe.debug.xcconfig"; sourceTree = "<group>"; };
 		7700376922269009007F2E3B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		771A23FE220372FF007B954C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		771C4965224A911F008D3F35 /* DishType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishType.swift; sourceTree = "<group>"; };
+		771C4967224A948E008D3F35 /* DishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishViewController.swift; sourceTree = "<group>"; };
+		771C496922509391008D3F35 /* DishTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishTableViewCell.swift; sourceTree = "<group>"; };
+		77290224222FC2C7003A61B3 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		776B7D3A22185618009C8CB8 /* ReserveInfoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveInfoPageViewController.swift; sourceTree = "<group>"; };
 		776B7D3C2220106A009C8CB8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		776B7D3F222069A0009C8CB8 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		776B7D4122206C7A009C8CB8 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		77B229D222410FDD00B6B743 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		77B29B572251BAF000F98591 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		77B8C8D82250A5A800D82B2E /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		77D6B885225614AB00F7FB35 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		77D6B8872256165E00F7FB35 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		77F5F1392211D400007D00E5 /* webViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewViewController.swift; sourceTree = "<group>"; };
+		77FFE9CD226C8F570090F81E /* DishCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCollectionViewCell.swift; sourceTree = "<group>"; };
 		BEE86A45B3474160325C2753 /* Pods-BookMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookMe/Pods-BookMe.release.xcconfig"; sourceTree = "<group>"; };
 		F0AFDD88CC0BB6EAB621D6C4 /* Pods_BookMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -155,6 +177,10 @@
 				15AC5E4121F638ED0082E63B /* City.swift */,
 				1533701C22071E6E0000DA29 /* Restaurant.swift */,
 				1533701E22071EBB0000DA29 /* WorkDay.swift */,
+				771C4965224A911F008D3F35 /* DishType.swift */,
+				77B8C8D82250A5A800D82B2E /* Dish.swift */,
+				77B29B572251BAF000F98591 /* MenuOption.swift */,
+				13CBE78D2279C2CC003F8BF7 /* QRModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,6 +191,8 @@
 				15AC5E3521F632FA0082E63B /* CityTableViewCell.swift */,
 				15337016220718D30000DA29 /* RestaurantTableViewCell.swift */,
 				15337018220718F60000DA29 /* RestaurantTableViewCell.xib */,
+				771C496922509391008D3F35 /* DishTableViewCell.swift */,
+				77FFE9CD226C8F570090F81E /* DishCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +200,7 @@
 		15AC5E2C21F61DB60082E63B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				77B229D122410FC700B6B743 /* Qr */,
 				776B7D3E2220696D009C8CB8 /* Menu */,
 				15337013220717AA0000DA29 /* Booking */,
 				15AC5E2D21F61E2B0082E63B /* MainTabBarViewController.swift */,
@@ -216,8 +245,20 @@
 				776B7D3F222069A0009C8CB8 /* MenuTableViewCell.swift */,
 				776B7D4122206C7A009C8CB8 /* Menu.swift */,
 				7700376922269009007F2E3B /* ProfileViewController.swift */,
+				77290224222FC2C7003A61B3 /* EditProfileViewController.swift */,
+				77D6B885225614AB00F7FB35 /* ContainerController.swift */,
+				77D6B8872256165E00F7FB35 /* Protocols.swift */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		77B229D122410FC700B6B743 /* Qr */ = {
+			isa = PBXGroup;
+			children = (
+				77B229D222410FDD00B6B743 /* QRViewController.swift */,
+				771C4967224A948E008D3F35 /* DishViewController.swift */,
+			);
+			path = Qr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,13 +361,14 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BookMe/Pods-BookMe-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BookMe/Pods-BookMe-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/FTIndicator/FTIndicator.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSignalRClient/SwiftSignalRClient.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -339,11 +381,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSignalRClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookMe/Pods-BookMe-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookMe/Pods-BookMe-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -360,25 +403,36 @@
 				15FF25A021F6484E00A249CE /* Keys.swift in Sources */,
 				15FF259A21F63D1100A249CE /* DMLoader.swift in Sources */,
 				15AC5E3421F6211A0082E63B /* RegistrationViewController.swift in Sources */,
+				77D6B886225614AC00F7FB35 /* ContainerController.swift in Sources */,
 				15AC5E3621F632FA0082E63B /* CityTableViewCell.swift in Sources */,
+				77D6B8882256165E00F7FB35 /* Protocols.swift in Sources */,
+				77290225222FC2C7003A61B3 /* EditProfileViewController.swift in Sources */,
 				776B7D3D2220106A009C8CB8 /* MenuViewController.swift in Sources */,
 				15FF259E21F643E900A249CE /* AuthViewController.swift in Sources */,
 				15AC5E3221F620750082E63B /* Extensions.swift in Sources */,
 				15AC5E3A21F635520082E63B /* CitiesViewController.swift in Sources */,
+				77B29B582251BAF000F98591 /* MenuOption.swift in Sources */,
+				77FFE9CE226C8F570090F81E /* DishCollectionViewCell.swift in Sources */,
 				15AC5E4021F638510082E63B /* UserAPI.swift in Sources */,
 				7700376A22269009007F2E3B /* ProfileViewController.swift in Sources */,
 				15AC5E2E21F61E2B0082E63B /* MainTabBarViewController.swift in Sources */,
+				77B8C8D92250A5A800D82B2E /* Dish.swift in Sources */,
 				15AC5E3821F6342C0082E63B /* Globals.swift in Sources */,
 				776B7D40222069A0009C8CB8 /* MenuTableViewCell.swift in Sources */,
 				771A23FF220372FF007B954C /* SwiftyJSON.swift in Sources */,
 				15AC5E1B21F61D150082E63B /* ViewController.swift in Sources */,
 				15337017220718D30000DA29 /* RestaurantTableViewCell.swift in Sources */,
+				77B229D322410FDD00B6B743 /* QRViewController.swift in Sources */,
 				15AC5E1921F61D150082E63B /* AppDelegate.swift in Sources */,
+				13CBE78E2279C2CC003F8BF7 /* QRModel.swift in Sources */,
 				15AC5E3E21F638510082E63B /* AF.swift in Sources */,
 				15337015220717CD0000DA29 /* BookingViewController.swift in Sources */,
+				771C496A22509391008D3F35 /* DishTableViewCell.swift in Sources */,
 				1533701F22071EBB0000DA29 /* WorkDay.swift in Sources */,
+				771C4966224A911F008D3F35 /* DishType.swift in Sources */,
 				15FF259C21F643BA00A249CE /* AccountCreatedViewController.swift in Sources */,
 				15AC5E4221F638ED0082E63B /* City.swift in Sources */,
+				771C4968224A948E008D3F35 /* DishViewController.swift in Sources */,
 				77F5F13A2211D400007D00E5 /* webViewViewController.swift in Sources */,
 				15AC5E3021F61E8D0082E63B /* GetStartedViewController.swift in Sources */,
 				776B7D3B22185618009C8CB8 /* ReserveInfoPageViewController.swift in Sources */,

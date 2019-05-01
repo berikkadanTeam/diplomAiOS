@@ -49,9 +49,20 @@ extension UIViewController {
     }
 }
 
+enum ImageType {
+    case restaurantMenu
+    case restaurantAvatar
+}
+
 extension String {
-    func toUrl() -> String {
-        let url = Globals.main.imageUrl + self
+    func toUrl(_ type: ImageType) -> String {
+        var url = ""
+        switch type {
+        case .restaurantAvatar:
+            url = Globals.main.imageUrl + self
+        case .restaurantMenu:
+            url = Globals.main.restarauntMenuImageUrl + self
+        }
         return url
     }
     

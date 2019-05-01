@@ -15,6 +15,7 @@ PODS:
     - NVActivityIndicatorView/Presenter (= 4.4.0)
   - NVActivityIndicatorView/Presenter (4.4.0)
   - ObjectMapper (3.4.1)
+  - SwiftSignalRClient (0.4.1)
   - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
@@ -24,6 +25,7 @@ DEPENDENCIES:
   - Kingfisher
   - NVActivityIndicatorView
   - ObjectMapper
+  - SwiftSignalRClient
   - SwiftyJSON
 
 SPEC REPOS:
@@ -34,6 +36,7 @@ SPEC REPOS:
     - Kingfisher
     - NVActivityIndicatorView
     - ObjectMapper
+    - SwiftSignalRClient
     - SwiftyJSON
 
 SPEC CHECKSUMS:
@@ -43,8 +46,9 @@ SPEC CHECKSUMS:
   Kingfisher: fcec238063d17404fca89bf0a850583211c4cbf6
   NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
   ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
+  SwiftSignalRClient: edd4e6e16c87370ca624c6868279483a2ffe4f1d
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 4d5a49c91c887d13d7806dd76e829e3b2da57d7d
+PODFILE CHECKSUM: 0df8eecda304ca987cf5653611f855e81fd3160b
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.rc.2

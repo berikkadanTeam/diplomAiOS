@@ -2,8 +2,8 @@
 //  BookingViewController.swift
 //  BookMe
 //
-//  Created by Dmitriy Pak on 2/3/19.
-//  Copyright © 2019 Dmitriy Pak. All rights reserved.
+//  Created by Alikhan Ilyassov on 2/3/19.
+//  Copyright © 2019 Alikhan Ilyassov. All rights reserved.
 //
 
 import UIKit
